@@ -108,7 +108,7 @@ func createLembaga(w http.ResponseWriter, r *http.Request) {
 		Kodepos := r.FormValue("kodepos")
 		
 
-		stmt, err := db.Prepare("INSERT INTO customers (id,XKodeSekolah,Yayasan,Nama,Jurusan,Alamat,Ketua,Puket1,Puket2,Puket3,Email,Provinsi,Kab_kota,Kecamatan,Kelurahan,Kodepos) VALUES(?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?)")
+		stmt, err := db.Prepare("INSERT INTO m_lembaga (id,XKodeSekolah,Yayasan,Nama,Jurusan,Alamat,Ketua,Puket1,Puket2,Puket3,Email,Provinsi,Kab_kota,Kecamatan,Kelurahan,Kodepos) VALUES(?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?)")
 
 		if err != nil {
 			panic(err.Error())
@@ -240,5 +240,5 @@ func main() {
 	r.HandleFunc("/getLembaga", getPost).Methods("POST")
 
 	// Start server
-	log.Fatal(http.ListenAndServe(":8383", r))
+	log.Fatal(http.ListenAndServe(":8484", r))
 }
