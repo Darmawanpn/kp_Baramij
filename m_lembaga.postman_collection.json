@@ -1,0 +1,234 @@
+{
+	"info": {
+		"_postman_id": "f2ca586b-21dd-4987-9393-b7fcba88532a",
+		"name": "m_lembaga",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json"
+	},
+	"item": [
+		{
+			"name": "localhost:8080\\m_lembaga",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "localhost:8080\\m_lembaga",
+					"host": [
+						"localhost"
+					],
+					"port": "8080",
+					"path": [
+						"m_lembaga"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "localhost:8484/m_lembaga",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "formdata",
+					"formdata": [
+						{
+							"key": "id",
+							"value": "aab",
+							"type": "text"
+						},
+						{
+							"key": "xKodeSekolah",
+							"value": "jktbrt",
+							"type": "text"
+						},
+						{
+							"key": "yayasan",
+							"value": "ypt",
+							"type": "text"
+						},
+						{
+							"key": "nama",
+							"value": "Telkom School",
+							"type": "text"
+						},
+						{
+							"key": "jurusan",
+							"value": "TKJ",
+							"type": "text"
+						},
+						{
+							"key": "alamat",
+							"value": "jakarta barat",
+							"type": "text"
+						},
+						{
+							"key": "ketua",
+							"value": "coba",
+							"type": "text"
+						},
+						{
+							"key": "puket1",
+							"value": "coba",
+							"type": "text"
+						},
+						{
+							"key": "puket2",
+							"value": "coba",
+							"type": "text"
+						},
+						{
+							"key": "puket3",
+							"value": "coba",
+							"type": "text"
+						},
+						{
+							"key": "email",
+							"value": "coba@gmail.com",
+							"type": "text"
+						},
+						{
+							"key": "provinsi",
+							"value": "coba",
+							"type": "text"
+						},
+						{
+							"key": "kab_kota",
+							"value": "coba",
+							"type": "text"
+						},
+						{
+							"key": "kecamatan",
+							"value": "coba",
+							"type": "text"
+						},
+						{
+							"key": "kelurahan",
+							"value": "coba",
+							"type": "text"
+						},
+						{
+							"key": "kodepos",
+							"value": "11123",
+							"type": "text"
+						}
+					]
+				},
+				"url": {
+					"raw": "localhost:8484/m_lembaga",
+					"host": [
+						"localhost"
+					],
+					"port": "8484",
+					"path": [
+						"m_lembaga"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "localhost:8484/getLembaga",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "formdata",
+					"formdata": [
+						{
+							"key": "id",
+							"value": "3",
+							"type": "text"
+						},
+						{
+							"key": "xKodeSekolah",
+							"value": "jktb",
+							"type": "text"
+						},
+						{
+							"key": "yayasan",
+							"value": "Ypt",
+							"type": "text"
+						},
+						{
+							"key": "nama",
+							"value": "Telkom School",
+							"type": "text"
+						},
+						{
+							"key": "jurusan",
+							"value": "TKJ",
+							"type": "text"
+						},
+						{
+							"key": "alamat",
+							"value": "jakart barat",
+							"type": "text"
+						},
+						{
+							"key": "ketua",
+							"value": "coba",
+							"type": "text"
+						},
+						{
+							"key": "puket1",
+							"value": "coba",
+							"type": "text"
+						},
+						{
+							"key": "puket2",
+							"value": "coba",
+							"type": "text"
+						},
+						{
+							"key": "puket3",
+							"value": "coba",
+							"type": "text"
+						},
+						{
+							"key": "email",
+							"value": "coba@gmail.com",
+							"type": "text"
+						},
+						{
+							"key": "provinsi",
+							"value": "coba",
+							"type": "text"
+						},
+						{
+							"key": "kab_kota",
+							"value": "coba",
+							"type": "text"
+						},
+						{
+							"key": "kecamatan",
+							"value": "coba",
+							"type": "text"
+						},
+						{
+							"key": "kelurahan",
+							"value": "coba",
+							"type": "text"
+						},
+						{
+							"key": "kodepos",
+							"value": "11123",
+							"type": "text"
+						}
+					]
+				},
+				"url": {
+					"raw": "localhost:8484/getLembaga",
+					"host": [
+						"localhost"
+					],
+					"port": "8484",
+					"path": [
+						"getLembaga"
+					]
+				}
+			},
+			"response": []
+		}
+	],
+	"protocolProfileBehavior": {}
+}
